@@ -1,8 +1,12 @@
 aid: imp-software
 name: IMP Software
-description: 'IMP Software is a company surfaced as a portfolio company of partech and added to the API
-  Evangelist network as a stub for enrichment. Sector: Applicative SaaS. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'IMP Software builds MAT-first financial management software for the UK education
+  sector. Its flagship product, IMP Planner, is a single-database, trust-wide platform for
+  budgeting, forecasting, reporting, Integrated Curriculum Financial Planning (ICFP) and
+  purchasing, used by Multi-Academy Trusts (MATs) and their schools. Based in Exeter, UK,
+  the company is trusted by more than 550 trusts across roughly 6,000 schools and secured
+  a growth investment from Partech in September 2025. IMP Planner is a closed SaaS application
+  for trust finance teams; IMP Software does not publish a public developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/imp-software/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +14,32 @@ x-backed-by:
 - partech
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://impsoftware.co.uk/wp-content/uploads/2023/07/IMP-Feature-Image.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Applicative Saas
+- Education
+- EdTech
+- FinTech
+- Financial Management
+- Budgeting
+- Forecasting
+- Multi-Academy Trust
+- SaaS
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,22 @@ maintainers:
 common:
 - type: Website
   url: https://impsoftware.co.uk/
+- type: About
+  url: https://impsoftware.co.uk/about/
+- type: Blog
+  url: https://impsoftware.co.uk/blog/
+- type: Pricing
+  url: https://impsoftware.co.uk/pricing/
+- type: Support
+  url: https://impsoftware.co.uk/contact/
+- type: PrivacyPolicy
+  url: https://impsoftware.co.uk/privacy-policy/
+- type: LLMsTxt
+  url: llms/imp-software-llms.txt
+- type: DomainSecurity
+  url: security/imp-software-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
